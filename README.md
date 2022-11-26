@@ -10,7 +10,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 - [Anchors](#anchors)
 
+
 - [Quantifiers](#quantifiers)
+
 
 - [OR Operator](#or-operator)
 
@@ -35,6 +37,14 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Anchors
 
 ### Quantifiers
+
+Regular expressions use quantifiers to generate unbounded matching possibilities and other matching amount specifications. An atom can optionally be followed by one of these quantifiers:
+ *   representing 0 or more occurrences of the atom,
+ +   representing 1 or more occurrence of the atom,
+ ?   representing 0 or 1 occurrences of the atom,
+the bound {n}   representing exactly n occurrences of the atom,
+the bound {m,n}   representing between m and n occurrences of the atom.
+The quantifier can optionally be followed by "?" indicating that the match be minimal (non-greedy, reluctant) as opposed to the default maximal (greedy) match.
 
 ### OR Operator
 
