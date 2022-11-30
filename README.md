@@ -4,15 +4,13 @@ Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This guide 
 
 ## Table of Contents
 
 - [Anchors](#anchors)
 
-
 - [Quantifiers](#quantifiers)
-
 
 - [OR Operator](#or-operator)
 
@@ -34,17 +32,16 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
+^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
 ### Anchors
+
+The anchor ^ denotes the start of the string  
+The anchor $ denotes the end of the string
 
 ### Quantifiers
 
-Regular expressions use quantifiers to generate unbounded matching possibilities and other matching amount specifications. An atom can optionally be followed by one of these quantifiers:
- *   representing 0 or more occurrences of the atom,
- +   representing 1 or more occurrence of the atom,
- ?   representing 0 or 1 occurrences of the atom,
-the bound {n}   representing exactly n occurrences of the atom,
-the bound {m,n}   representing between m and n occurrences of the atom.
-The quantifier can optionally be followed by "?" indicating that the match be minimal (non-greedy, reluctant) as opposed to the default maximal (greedy) match.
+The quantifiers for the expresion matching an email is [2,6]
 
 ### OR Operator
 
@@ -66,4 +63,4 @@ The quantifier can optionally be followed by "?" indicating that the match be mi
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+GitHub Profile (https://github.com/Huertz)
