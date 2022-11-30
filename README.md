@@ -4,7 +4,7 @@ Introductory paragraph (replace this with your text)
 
 ## Summary
 
-This guide 
+This guide will provide a basic undertanding of the components of the expresion matching an email 
 
 ## Table of Contents
 
@@ -45,13 +45,38 @@ The quantifiers for the expresion matching an email is [2,6]
 
 ### OR Operator
 
+In this expresion there no OR operator
+
 ### Character Classes
+
+ There are multiple characters classes in regex but the one used in expresion of matching and email is \d
+\d- Matches any digit (Arabic numeral) Equivalent to [0-9] For example, /\d/ or /[0-9]/ matches "2" in "B2 is the suite number"
 
 ### Flags
 
+Base in my knowledge the expresion of matching an email does not contain flags
+Here are few example of flags expresions
+
+i
+With this flag the search is case-insensitive: no difference between A and a (see the example below).
+g
+With this flag the search looks for all matches, without it – only the first match is returned.
+m
+Multiline mode (covered in the chapter Multiline mode of anchors ^ $, flag "m").
+s
+Enables “dotall” mode, that allows a dot . to match newline character \n (covered in the chapter Character classes).
+u
+Enables full Unicode support. The flag enables correct processing of surrogate pairs. More about that in the chapter Unicode: flag "u" and class \p{...}.
+y
+“Sticky” mode: searching at the exact position in the text (covered in the chapter Sticky flag "y", searching at position)
+
 ### Grouping and Capturing
 
+Grouping and Capturing is reprecented by ()
+
 ### Bracket Expressions
+
+[a-z0-9_\.-] [\da-z\.-] [a-z\.]
 
 ### Greedy and Lazy Match
 
