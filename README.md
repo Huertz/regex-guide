@@ -80,9 +80,13 @@ Grouping and Capturing is reprecented by ()
 
 ### Greedy and Lazy Match
 
+There no greedy and Lazy Match in the expression matching an email 
+
 ### Boundaries
 
 ### Back-references
+
+There no Back-references in the expression matching an email 
 
 ### Look-ahead and Look-behind
 
