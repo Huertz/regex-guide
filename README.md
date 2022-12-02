@@ -1,6 +1,6 @@
 # Regex Tutorial Starter Code
 
-Introductory paragraph (replace this with your text)
+Regex Guide
 
 ## Summary
 
@@ -72,17 +72,27 @@ y
 
 ### Grouping and Capturing
 
-Grouping and Capturing is reprecented by ()
+Grouping and Capturing is reprecented by (). Parenthesis group the regex between them.
+
+First group ([a-z0-9_\.-]+)
+
+Following group([\da-z\.-]+)
+
+Last group([a-z\.]{2,6})
 
 ### Bracket Expressions
+
+Brackets indicate a set of characters that need to match. 
 
 [a-z0-9_\.-] [\da-z\.-] [a-z\.]
 
 ### Greedy and Lazy Match
 
-There no greedy and Lazy Match in the expression matching an email 
+In the expression matching an email there no greddy and lazy match 
 
 ### Boundaries
+
+There no Boundaries in the expression matching an email 
 
 ### Back-references
 
@@ -90,6 +100,16 @@ There no Back-references in the expression matching an email
 
 ### Look-ahead and Look-behind
 
+Even though that Look-ahead and look-behing is not being used in matching an email. 
+
+Expresions 
+(?!) - negative lookahead
+(?=) - positive lookahead
+(?<=) - positive lookbehind
+(?<!) - negative lookbehind
+
 ## Author
+
+Jose Alfredo Huerta
 
 GitHub Profile (https://github.com/Huertz)
